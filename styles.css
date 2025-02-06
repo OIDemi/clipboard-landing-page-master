@@ -174,7 +174,7 @@ MEDIA QUERIES
   }
   .image {
     position: relative;
-    right: 150px;
+    right: 10vw;
   }
   .snippet-flex-container {
     display: flex;
