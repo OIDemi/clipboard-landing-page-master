@@ -143,6 +143,50 @@ TRACK SECTION
 .snippet-text-content {
   color: var(--grayish-blue-color);
 }
+
+/******
+
+CLIPBOARD SECTION
+
+
+******/
+.clipboard {
+  margin-top: 5rem;
+}
+.clipboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.clipboard-title-container {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.clipboard-title-heading {
+  color: var(--dark-grayish-blue-color);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.clipboard-title-content {
+  color: var(--grayish-blue-color);
+}
+
+.device-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.device-img {
+  width: 100%;
+  max-width: 700px;
+}
 /**
 
 
