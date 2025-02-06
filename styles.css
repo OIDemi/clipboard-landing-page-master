@@ -107,6 +107,42 @@ TRACK SECTION
 .track-title {
   font-size: 30px;
 }
+
+.snippet-container {
+  width: 90%;
+  margin: auto;
+  max-width: 1300px;
+}
+.snippet-flex-container {
+  display: block;
+  margin-top: 3rem;
+}
+.image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.snippet-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.snippet-text-body {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  line-height: 1.7;
+}
+.snippet-text-heading {
+  color: var(--dark-grayish-blue-color);
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+}
+
+.snippet-text-content {
+  color: var(--grayish-blue-color);
+}
 /**
 
 
@@ -132,8 +168,20 @@ MEDIA QUERIES
     justify-content: center;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .header {
     background-image: url("./images/bg-header-desktop.png");
+  }
+  .image {
+    position: relative;
+    right: 150px;
+  }
+  .snippet-flex-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .snippet-text-heading {
+    text-align: start;
   }
 }
