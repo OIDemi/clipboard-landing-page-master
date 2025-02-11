@@ -25,7 +25,7 @@ body {
   margin: auto;
 }
 .section-container {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 .title {
   font-weight: 600;
@@ -235,6 +235,17 @@ COMPANY IMAGES
 
 .company-img {
   width: 150px;
+}
+
+/******
+
+APPLE DEVICES CONTAINER
+******/
+
+.apple-devices-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 /**
 
