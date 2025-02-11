@@ -219,6 +219,23 @@ SUPERCHARGE SECTION
 .supercharge-content {
   color: var(--grayish-blue-color);
 }
+
+/******
+COMPANY IMAGES
+
+******/
+
+.company-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+
+.company-img {
+  width: 150px;
+}
 /**
 
 
@@ -261,6 +278,10 @@ MEDIA QUERIES
     text-align: start;
   }
   .supercharge-body-container {
+    flex-direction: row;
+  }
+
+  .company-images {
     flex-direction: row;
   }
 }
