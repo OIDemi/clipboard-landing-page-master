@@ -247,6 +247,60 @@ APPLE DEVICES CONTAINER
   flex-direction: column;
   gap: 3rem;
 }
+
+/******
+FOOTER SECTION
+
+******/
+
+.footer-section {
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: rgb(235, 230, 230);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  text-align: center;
+}
+.clipboard-footer-img {
+  width: 75px;
+}
+
+.footer-container-1 {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: column;
+}
+.footer-container-1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-container-1 ul li {
+  list-style-type: none;
+}
+
+.footer-container-1 ul li a {
+  text-decoration: none;
+  color: var(--dark-grayish-blue-color);
+}
+
+.footer-container-1 ul li a:hover {
+  color: var(--strong-cyan-color);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
 /**
 
 
@@ -270,6 +324,16 @@ MEDIA QUERIES
   .header-btn {
     flex-direction: row;
     justify-content: center;
+  }
+  .footer-container {
+    flex-direction: row;
+    text-align: start;
+  }
+  .footer-container-1 {
+    flex-direction: row;
+  }
+  .footer-container-1 ul {
+    flex-direction: row;
   }
 }
 @media (min-width: 1024px) {
